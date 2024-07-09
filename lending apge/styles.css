@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .contact-info {
+    text-align: right;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero .cta-buttons button {
+    background: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.services {
+    background: #ff007f;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .service {
+    margin: 20px 0;
+}
+
+.about-us {
+    background: #f4f4f4;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us button {
+    background: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.our-services {
+    background: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.our-services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.our-services .service img {
+    width: 100%;
+    height: auto;
+}
+
+.our-services .service h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
